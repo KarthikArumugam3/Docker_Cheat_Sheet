@@ -1,5 +1,5 @@
-# Docker_Cheat_Sheet
-A collection of all useful docker commands
+# Docker cheat sheet
+## A collection of all useful docker commands.
 
 [![Docker](https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png)](https://www.docker.com)
 
@@ -14,7 +14,7 @@ A collection of all useful docker commands
 | `docker run --name test-ubuntu -it ubuntu:16.04 ./bin/bash`| Run Ubuntu interactively   |
 
 
-### 2. Building and running a container from scratch using Dockerfile
+### 2. Building and running a container from scratch using Dockerfile:-
 | Command                                                    | Description                |
 |------------------------------------------------------------|----------------------------|
 | `docker build -t <container_name>:latest .`  | Create image using this directory's Dockerfile|
@@ -57,7 +57,7 @@ A collection of all useful docker commands
 | `docker pull username/<repository_name>:tag`  |  Pull tagged image from registry |
 | `docker run username/repository:tag`  | Run image from a registry |
 
-### 6. Docker Volumes
+### 6. Docker Volumes:-
 | Command                          | Description                |
 |----------------------------------|----------------------------|
 | `docker volume create my_vol`    | Create a volume            |
@@ -66,7 +66,7 @@ A collection of all useful docker commands
 | `docker volume rm my_vol`        | Remove a volume            |
 | `docker volume prune`            | Remove all unused local volumes |
 
-### 7. Docker Networks
+### 7. Docker Networks:-
 | Command                          | Description                |
 |----------------------------------|----------------------------|
 | `docker network prune`           | Remove all unused networks |
