@@ -1,7 +1,9 @@
 # Docker_Cheat_Sheet
 A collection of all useful docker commands
 
-### 1. Pulling and running a container from Docker Hub:-
+[![Docker](https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png)](https://www.docker.com)
+
+### 1. Pulling and running a container:-
 | Command                                                    | Description                |
 |------------------------------------------------------------|----------------------------|
 | `docker pull nginx`                                        | Pull Nginx                 |
